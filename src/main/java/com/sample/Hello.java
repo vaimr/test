@@ -11,6 +11,9 @@ public class Hello {
     }
 
     public String getMessage() {
+        if (name == null) {
+            name = name.toUpperCase();
+        }
         return "Hello " + (StringUtils.isNotEmpty(name) ? name : "noname");
     }
 }
