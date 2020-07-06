@@ -20,7 +20,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>test</id>
-            <url>http://localhost:8080/artifactory/simple/ext-snapshot-local/</url>
+            <url>http://test:8082/artifactory/simple/ext-snapshot-local/</url>
         </snapshotRepository>
     </distributionManagement>
 
